@@ -1,0 +1,6 @@
+#  this is the example of case file
+#  .toml format
+[main]
+in = ""
+out = "?"  # ? - output is not specified
+time = 1   # TLE timeout. Optional (1 is default)
