@@ -1,0 +1,9 @@
+#  this is the example of case_file
+#  .toml format
+[main]
+in = """
+turn on 0,0 through 2,2
+toggle 0,0 through 1,1
+"""
+out = "5" # output may not be specified - "?"
+time = 4

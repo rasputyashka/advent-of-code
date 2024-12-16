@@ -1,0 +1,16 @@
+#  this is the example of case_file
+#  .toml format
+[main]
+in = """
+123 -> x
+456 -> y
+x AND y -> d
+x OR y -> e
+x LSHIFT 2 -> f
+y RSHIFT 2 -> g
+NOT x -> h
+NOT y -> i
+f AND y -> a
+"""
+out = "?" # output may not be specified - "?"
+time = 30

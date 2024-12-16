@@ -1,0 +1,7 @@
+#  this is the example of case_file
+#  .toml format
+[main]
+in = """M.S
+.A.
+M.S"""
+out = "1000"  # output may not be specified - "?"

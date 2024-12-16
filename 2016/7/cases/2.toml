@@ -1,0 +1,3 @@
+[main]
+in = "abcd[bddb]xyyx"
+out = "0"

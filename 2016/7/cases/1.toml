@@ -1,0 +1,3 @@
+[main]
+in = "abba[mnop]qrst"
+out = "1"

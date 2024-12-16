@@ -1,0 +1,12 @@
+
+#  this is the example of case_file
+#  .toml format
+[main]
+in = """cpy 41 a
+inc a
+inc a
+dec a
+jnz a 2
+dec a"""
+out = "42"  # output may not be specified - "?"
+

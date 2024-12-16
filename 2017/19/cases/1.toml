@@ -1,0 +1,13 @@
+#  this is the example of case_file
+#  .toml format
+[main]
+in = """
+     |          
+     |  +--+    
+     A  |  C    
+ F---|----E|--+ 
+     |  |  |  D 
+     +B-+  +--+ 
+"""
+out = "13"  # output may not be specified - "?"
+time = 100
